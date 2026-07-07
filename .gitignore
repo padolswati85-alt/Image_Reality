@@ -1,0 +1,41 @@
+# Python
+Backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Database
+*.db
+
+# React
+Frontend/node_modules/
+Frontend/dist/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Python
+Backend/venv/
+__pycache__/
+
+# Zip files
+*.zip
+
+# Build folders
+dist/
+build/
+
+# Environment
+.env

@@ -1,0 +1,223 @@
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 999px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  background: #2563eb;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.custom-prev {
+  left: -25px;
+}
+
+.custom-next {
+  right: -25px;
+}
+.slider-bg-pattern {
+  background-color: #fef9f3;
+  background-image: radial-gradient(circle, rgba(0,0,0,0.02) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+.pin {
+  width: 18px;
+  height: 18px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  position: relative;
+}
+
+.pin::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  margin: 5px 0 0 5px;
+  background: white;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.pin.red {
+  background: #d62828;
+}
+
+.pin.blue {
+  background: #1d4ed8;
+}
+
+/* Full-screen gradient background */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: Arial, sans-serif;
+  gap: 20px;
+}
+
+/* Cards container for login/register */
+.cards-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Card styling */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  min-width: 250px;
+  transition: all 0.6s ease;
+}
+
+/* Fade-in effect */
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Card title */
+.card-title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Input fields */
+.input-field {
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #007bff;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #00d4ff;
+  box-shadow: 0 0 10px #00d4ff;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Blue buttons */
+.blue-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.blue-btn:hover {
+  background-color: #00d4ff;
+}
+
+/* Red buttons */
+.red-btn {
+  background-color: #ff4d4f;
+  color: white;
+}
+
+.red-btn:hover {
+  background-color: #ff7875;
+}
+
+/* Google button */
+.google-btn {
+  background-color: #4285f4;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.google-btn:hover {
+  background-color: #2a65c7;
+  transform: scale(1.05);
+}
+
+/* Logged-in text */
+.logged-in {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #00d4ff;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  animation: gradientMove 8s ease infinite;
+}
+/* Force react-hot-toast above navbar */
+div[class*="goober"] {
+  z-index: 9999 !important;
+}
+
+/* Alternative: target toast container directly */
+.toast-container {
+  z-index: 9999 !important;
+}
+
+/* Force all toast messages above everything */
+.goober-styles,
+.goober,
+div[class*="goober"],
+.toaster-container {
+  z-index: 99999 !important;
+}
+
+/* Alternatively, target react-hot-toast’s container directly */
+[data-popper-placement] {
+  z-index: 99999 !important;
+}
+.Toastify__toast-container {
+  z-index: 99999 !important;
+}

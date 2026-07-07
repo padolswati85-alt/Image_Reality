@@ -1,0 +1,420 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(-45deg, #2A0845, #6441A5, #FEAC5E);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+.login-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+  padding: 50px 40px;
+  border-radius: 20px;
+  width: 380px;
+  text-align: center;
+  color: white;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  background: #4cb5f9;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* small helper to ensure body uses dark class */
+html, body, #root { height: 100%; }
+@keyframes fade-in {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease forwards;
+}
+.swiper-slide {
+  height: auto !important;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.custom-prev,
+.custom-next {
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 9px 10px;
+  font-size: 14px;
+  border: 1px solid #dbdbdb;
+  background: #fafafa;
+  border-radius: 3px;
+}
+
+.auth-input:focus {
+  outline: none;
+  background: white;
+}
+
+.auth-btn {
+  width: 100%;
+  background: #4cb5f9;
+  color: white;
+  padding: 7px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Billabong";
+  src: url("/fonts/Billabong.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.instagram-logo {
+  font-family: "Billabong", cursive;
+  font-size: 3.2rem;
+  letter-spacing: 1px;
+}
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0;
+  height: 2px;
+  background-color: #C43A78;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-icon {
+  transition: color 0.25s ease;
+}
+
+.nav-icon:hover {
+  color: #E8B2C3;
+}
+.footer-link {
+  transition: color 0.25s ease;
+}
+
+.footer-link:hover {
+  color: #E8B2C3;
+}
+background: linear-gradient(
+  to bottom,
+  #f7d6df 0%,
+  #f1b9c8 100%
+);
+.pin {
+  width: 16px;
+  height: 16px;
+  border-radius: 50% 50% 50% 0;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 50%;
+  top: 50%;
+  margin: -16px 0 0 -8px;
+}
+
+.pin.red {
+  background: #dc2626;
+}
+
+.pin.blue {
+  background: #2563eb;
+}
+
+.pulse {
+  width: 30px;
+  height: 30px;
+  background: rgba(37, 99, 235, 0.3);
+  border-radius: 50%;
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.5); opacity: 1; }
+  100% { transform: scale(2); opacity: 0; }
+}
+/* in App.css or Login.module.css */
+.login-container, .admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(-45deg, #2A0845, #6441A5, #FEAC5E);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+.login-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+  padding: 50px 40px;
+  border-radius: 20px;
+  width: 380px;
+  text-align: center;
+  color: white;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  background: white;
+  color: #6441A5;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Full-screen gradient background */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: Arial, sans-serif;
+  gap: 20px;
+}
+
+/* Cards container for login/register */
+.cards-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Card styling */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  min-width: 250px;
+  transition: all 0.6s ease;
+}
+
+/* Fade-in effect */
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Card title */
+.card-title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Input fields */
+.input-field {
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #007bff;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #00d4ff;
+  box-shadow: 0 0 10px #00d4ff;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Blue buttons */
+.blue-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.blue-btn:hover {
+  background-color: #00d4ff;
+}
+
+/* Red buttons */
+.red-btn {
+  background-color: #ff4d4f;
+  color: white;
+}
+
+.red-btn:hover {
+  background-color: #ff7875;
+}
+
+/* Google button */
+.google-btn {
+  background-color: #4285f4;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.google-btn:hover {
+  background-color: #2a65c7;
+  transform: scale(1.05);
+}
+
+/* Logged-in text */
+.logged-in {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #00d4ff;
+}
+
+
+/* Leaflet Routing Machine directions box theme */
+.leaflet-routing-container {
+  background-color: #F6F1E7 !important; /* dark navy */
+  color: #2e317d !important;           /* neon purple text */
+  border: 2px solid #03132c34 !important; /* neon blue border */
+  border-radius: 12px !important;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5) !important;
+  max-height: 300px !important;       /* optional: keep scrollable */
+  overflow-y: auto !important;
+}
+
+/* Directions text items */
+.leaflet-routing-step {
+  color: #E0E7FF !important;  /* lighter neon text */
+}
+
+/* Route summary at top */
+.leaflet-routing-summary {
+  color: #A78BFA !important;
+  font-weight: bold;
+}
+
+/* Scrollbar for the directions panel */
+.leaflet-routing-container::-webkit-scrollbar {
+  width: 8px;
+}
+.leaflet-routing-container::-webkit-scrollbar-thumb {
+  background-color: #3B82F6;
+  border-radius: 4px;
+}
+.leaflet-routing-container::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+
+/* Force react-hot-toast above navbar */
+div[class*="goober"] {
+  z-index: 9999 !important;
+}
+
+/* Alternative: target toast container directly */
+.toast-container {
+  z-index: 9999 !important;
+}
+
+/* Force all toast messages above everything */
+.goober-styles,
+.goober,
+div[class*="goober"],
+.toaster-container {
+  z-index: 99999 !important;
+}
+
+/* Alternatively, target react-hot-toast’s container directly */
+[data-popper-placement] {
+  z-index: 99999 !important;
+}
+.Toastify__toast-container {
+  z-index: 99999 !important;
+}

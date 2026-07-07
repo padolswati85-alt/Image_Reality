@@ -1,0 +1,979 @@
+http://127.0.0.1:8000/static/images/aishwarya.png
+
+
+1. 
+"name": "Swami Narayn Temple",
+"description": "A peaceful and beautifully designed temple in Tapovan, Nashik, the Swaminarayan Mandir offers a serene atmosphere, divine idols, and a calm space for prayer and meditation.A well-maintained and scenic Swaminarayan Mandir in Tapovan, offering quiet surroundings and a soothing place to relax.",
+"image_url": "http://127.0.0.1:8000/static/images/swaminarayanmandir.png",
+"taluka_id": 1,
+"category_ids": [1]
+
+2. 
+{
+  "name": "Sundar Narayan Temple",
+  "description": "A serene and historic Vishnu temple in Nashik, known for its peaceful atmosphere and classic stone architecture.",
+  "image_url": "http://127.0.0.1:8000/static/images/SundarNarayanmandir.png",
+  "taluka_id": 1,
+  "category_ids": [1,5]
+}
+
+3.
+{
+  "name": "Sula Vineyards",
+  "description": "A popular and scenic vineyard in Nashik, Sula offers beautiful landscapes, wine tours, tastings, and a relaxing getaway amidst lush grape fields.",
+  "image_url": "http://127.0.0.1:8000/static/images/sulawine.png",
+  "taluka_id": 1,
+  "category_ids": [7, 9]
+}
+
+4.
+{
+  "name": "Mukti Dham",
+  "description": "A beautiful marble temple complex in Nashik, Mukti Dham is known for its serene atmosphere, detailed architecture, and replicas of major Hindu pilgrimage sites.",
+  "image_url": "http://127.0.0.1:8000/static/images/muktidham.jpg",
+  "taluka_id": 1,
+  "category_ids": [1, 5, 9]
+}
+
+
+6.
+{
+  "name": "Kapaleshwar Temple",
+  "description": "An ancient Shiva temple in Nashik, Kapaleshwar Mandir is known for its historic significance, peaceful atmosphere, and sacred surroundings near the Godavari River.",
+  "image_url": "http://127.0.0.1:8000/static/images/kapaleshwar.jpg",
+  "taluka_id": 1,
+  "category_ids": [1, 5]
+}
+
+7.
+{
+  "name": "Ramkund",
+  "description": "A sacred and historic bathing ghat on the Godavari River, Ramkund is a major spiritual landmark of Nashik known for its cultural significance and peaceful riverside setting.",
+  "image_url": "http://127.0.0.1:8000/static/images/ramkund.jpg",
+  "taluka_id": 1,
+  "category_ids": [5, 6, 9]
+}
+
+8.
+{
+  "name": "Sita Gufa",
+  "description": "A sacred cave in Panchavati linked to the Ramayana, Sita Gufa is known for its ancient significance, temple idols, and a unique spiritual atmosphere that attracts visitors throughout the year.",
+  "image_url": "http://127.0.0.1:8000/static/images/sitagufa.png",
+  "taluka_id": 1,
+  "category_ids": [1, 5, 9]
+}
+
+9. 
+{
+  "name": "Kalaram Mandir",
+  "description": "A historic and revered temple in Panchavati, Kalaram Mandir is known for its striking black-stone idol of Lord Rama, ancient architecture, and deep cultural significance in Nashik.",
+  "image_url": "http://127.0.0.1:8000/static/images/kalarammandir.jpg",
+  "taluka_id": 1,
+  "category_ids": [1, 5, 9]
+}
+
+10. 
+{
+  "name": "Bhagur Renuka Mata Mandir",
+  "description": "A revered temple dedicated to Goddess Renuka in Bhagur, known for its peaceful surroundings, cultural importance, and spiritual atmosphere.",
+  "image_url": http://127.0.0.1:8000/static/images/bhagurdevi.png",
+  "taluka_id": 1,
+  "category_ids": [1, 5]
+}
+
+11. 
+{
+  "name": "Khaderav Tekdi, Bhagur",
+  "description": "A peaceful hill in Bhagur offering scenic views, natural surroundings, and a calm spot for walking and relaxation.",
+  "image_url": "http://127.0.0.1:8000/static/images/khandobatekadi.png",
+  "taluka_id": 1,
+  "category_ids": [4, 5, 9]
+}
+
+12.
+{
+  "name": "Someshwar",
+  "description": "A popular riverside destination in Nashik known for the Someshwar Mahadev Temple, scenic greenery, and the nearby Someshwar Waterfall, making it a peaceful and beautiful spot for visitors.",
+  "image_url": "http://127.0.0.1:8000/static/images/someshwar.jpg",
+  "taluka_id": 1,
+  "category_ids": [1, 3, 9]
+}
+
+13.
+{
+  "name": "Navsha Ganpati",
+  "description": "A popular Ganpati temple in Nashik known for its peaceful riverside setting, spiritual atmosphere, and constant flow of devotees seeking blessings.",
+  "image_url": "http://127.0.0.1:8000/static/images/navshaganpati.webp",
+  "taluka_id": 1,
+  "category_ids": [1, 9]
+}
+
+14.
+{
+  "name": "Dari Mata Mandir",
+  "description": "A hilltop temple dedicated to Goddess Dari Mata, known for its peaceful spiritual atmosphere, scenic views, and natural surroundings.",
+  "image_url": "http://127.0.0.1:8000/static/images/darimatori.png",
+  "taluka_id": 1,
+  "category_ids": [1, 4, 5, 9]
+}
+
+15.
+{
+  "name": "Pandavleni Caves",
+  "description": "An ancient group of Buddhist caves located on a hilltop in Nashik, Pandavleni is known for its historic carvings, trekking trail, and scenic views of the city.",
+  "image_url": "http://127.0.0.1:8000/static/images/pandavleni.jpg",
+  "taluka_id": 1,
+  "category_ids": [1, 4, 5, 9]
+}
+
+16.
+{
+  "name": "Chandicha Ganpati, R.K. Nashik",
+  "description": "A popular Ganpati temple in R.K. Nashik, known for its peaceful atmosphere, devotional significance, and strong local faith.",
+  "image_url": "http://127.0.0.1:8000/static/images/chandichaganpati.webp",
+  "taluka_id": 1,
+  "category_ids": [1]
+}
+
+17.
+{
+  "name": "Chambar Lane",
+  "description": "A natural hill area in Nashik offering peaceful surroundings, scenic views, and a quiet space for walks and relaxation.",
+  "image_url": "http://127.0.0.1:8000/static/images/chambarleni.png",
+  "taluka_id": 1,
+  "category_ids": [4, 9]
+}
+
+
+18.
+{
+  "name": "City Center Mall, Nashik",
+  "description": "A popular shopping and entertainment destination in Nashik offering a wide range of stores, food outlets, and leisure activities for visitors.",
+  "image_url": "http://127.0.0.1:8000/static/images/CCM.png",
+  "taluka_id": 1,
+  "category_ids": [11]
+}
+
+19.
+{
+  "name": "Godha Park",
+  "description": "A peaceful riverside park in Nashik known for its greenery, walking paths, and relaxing natural surroundings, making it a favorite spot for families and visitors.",
+  "image_url": "http://127.0.0.1:8000/static/images/godapark.jpg",
+  "taluka_id": 1,
+  "category_ids": [9]
+}
+
+20.
+{
+  "name": "Gore Ram Mandir",
+  "description": "A traditional and culturally significant temple known for its peaceful atmosphere and devotional environment.",
+  "image": "http://127.0.0.1:8000/static/images/gorerammandir.png",
+  "taluka_id": 1,
+  "category_ids": [1, 5, 9]
+}
+
+21.
+{
+  "name": "Cabet Hill Canberra",
+  "description": "A scenic hill area offering a calm natural environment, ideal for short treks and enjoying elevated views.",
+  "image": "http://127.0.0.1:8000/static/images/cabethill.webp",
+  "taluka_id": 1,
+  "category_ids": [9]
+}
+
+22.
+{
+  "name": "BackWaters",
+  "description": "A serene backwater location famous for its peaceful ambiance, calm water views, and relaxing surroundings.",
+  "image_url": "http://127.0.0.1:8000/static/images/Backwaters.webp",
+  "taluka_id": 1,
+  "category_ids": [6, 9]
+}
+
+23.
+{
+  "name": "Somawine Village",
+  "description": "A popular wine-themed destination known for its local vineyards, wine tasting experiences, and scenic rural atmosphere.",
+  "image_url": "http://127.0.0.1:8000/static/images/somawinevillage.jpg",
+  "taluka_id": 1,
+  "category_ids": [7, 9]
+}
+
+24.
+{
+  "name": "Anna Ganpati",
+  "description": "A well-known Ganpati temple visited for its spiritual ambiance, cultural significance, and local devotion.",
+  "image_url": "http://127.0.0.1:8000/static/images/annaganpati.png",
+  "taluka_id": 1,
+  "category_ids": [1, 5, 6, 9]
+}
+
+
+25.
+{
+  "name": "Bhatsa River Valley",
+  "description": "A scenic valley viewpoint in Igatpuri offering breathtaking views of the Bhatsa River gorge, lush landscapes, and misty mountains.",
+  "image_url": "http://127.0.0.1:8000/static/images/bhatsariver.png",
+  "taluka_id": 2,
+  "category_ids": [3, 6, 9]
+}
+
+26.
+{
+  "name": "Camel Valley (Kamalsagar Point)",
+  "description": "A popular viewpoint in Igatpuri where deep valleys, seasonal waterfalls, and mist-covered hills create a stunning natural panorama.",
+  "image_url": "http://127.0.0.1:8000/static/images/camel.png",
+  "taluka_id": 2,
+  "category_ids": [3, 6, 9]
+}
+
+27.
+{
+  "name": "Vihigaon Waterfall (Ashoka Waterfall)",
+  "description": "A beautiful natural waterfall near Igatpuri, known for its lush forest surroundings and as a filming location for the movie Ashoka.",
+  "image_url": "http://127.0.0.1:8000/static/images/ashoka.png",
+  "taluka_id": 2,
+  "category_ids": [3, 9]
+}
+
+28.
+{
+  "name": "Tringalwadi Fort",
+  "description": "An ancient hill fort in Igatpuri known for trekking, scenic views, and historic stone structures overlooking the Western Ghats.",
+  "image_url": "http://127.0.0.1:8000/static/images/tringalwadifort.webp",
+  "taluka_id": 2,
+  "category_ids": [2, 9]
+}
+
+29.
+{
+  "name": "Myanmar Gate (Vipassana Centre)",
+  "description": "A grand entrance to the Igatpuri Vipassana Centre, featuring beautiful architecture and a peaceful meditation-friendly environment.",
+  "image_url": "http://127.0.0.1:8000/static/images/myanmar.webp",
+  "taluka_id": 2,
+  "category_ids": [9]
+}
+
+30.
+{
+  "name": "Pata Fort or Vishramgad",
+  "description": "A lesser-known historic fort in the Igatpuri region, popular among trekkers for its natural beauty, forest trails, and hilltop views.",
+  "image_url": "http://127.0.0.1:8000/static/images/vishramgadpattafort.avif",
+  "taluka_id": 2,
+  "category_ids": [2, 9]
+}
+
+
+31.
+{
+  "name": "Trimbakeshwar Mandir",
+  "description": "One of the twelve Jyotirlingas, the Trimbakeshwar Temple is an ancient and sacred Shiva temple known for its spiritual significance and traditional stone architecture.",
+  "image_url": "http://127.0.0.1:8000/static/images/trimbakeshwarmandir.jpg",
+  "taluka_id": 3,
+  "category_ids": [1, 5, 9]
+}
+
+32.
+{
+  "name": "Bhramhagiri Mountain",
+  "description": "A sacred mountain in Trimbakeshwar known for trekking trails, scenic views, and being the origin point of the Godavari River.",
+  "image_url": "http://127.0.0.1:8000/static/images/brahmagirifort.jpg",
+  "taluka_id": 3,
+  "category_ids": [4, 9]
+}
+
+33.
+{
+  "name": "Kusavarta Kunda",
+  "description": "A sacred water tank in Trimbakeshwar considered the symbolic origin of the Godavari River, known for rituals and religious importance.",
+  "image_url": "http://127.0.0.1:8000/static/images/Kushwaratkund.jpg",
+  "taluka_id": 3,
+  "category_ids": [5, 1]
+}
+
+34.
+{
+  "name": "Anjaneri Fort",
+  "description": "A historic hill fort believed to be the birthplace of Lord Hanuman, popular for trekking and stunning panoramic views.",
+  "image_url": "http://127.0.0.1:8000/static/images/anjaneri.png",
+  "taluka_id": 3,
+  "category_ids": [2, 4, 9]
+}
+
+35.
+{
+  "name": "Mini Kedarnath",
+  "description": "A peaceful Shiva temple near Trimbak, known for its serene atmosphere and hillside surroundings.",
+  "image_url": "http://127.0.0.1:8000/static/images/minikedarnath.png",
+  "taluka_id": 3,
+  "category_ids": [1, 9]
+}
+
+36.
+{
+  "name": "Dugarwadi Waterfall",
+  "description": "A beautiful hidden waterfall in Trimbakeshwar surrounded by greenery and forest trails, ideal during monsoon.",
+  "image_url": "http://127.0.0.1:8000/static/images/dugarvadi.png",
+  "taluka_id": 3,
+  "category_ids": [3, 9]
+}
+
+37.
+{
+  "name": "Pahine Waterfall",
+  "description": "A calm natural waterfall near Trimbak known for its serene environment and lush monsoon views.",
+  "image_url": "http://127.0.0.1:8000/static/images/pahinewaterfall.webp",
+  "taluka_id": 3,
+  "category_ids": [3, 9]
+}
+
+
+38.
+{
+  "name": "Ramshej Fort",
+  "description": "A historic fort near Dindori known for its trekking route, ancient structures, and stunning views of the surrounding hills.",
+  "image_url": "http://127.0.0.1:8000/static/images/ramshejfort.jpg",
+  "taluka_id": 4,
+  "category_ids": [2, 5, 9]
+}
+
+39.
+{
+  "name": "Shree Swami Samarth Mandir",
+  "description": "A peaceful temple dedicated to Shree Swami Samarth, known for its devotional atmosphere and spiritual significance in Dindori.",
+  "image_url": "http://127.0.0.1:8000/static/images/swamisamarthkendradindori.jpg",
+  "taluka_id": 4,
+  "category_ids": [1]
+}
+
+40.
+{
+  "name": "Vindhya Nivasini Mandir",
+  "description": "A beautiful temple in Dindori dedicated to Goddess Vindhya Nivasini, known for its peaceful surroundings and spiritual ambiance.",
+  "image_url": "http://127.0.0.1:8000/static/images/vindhyavasinidevimandirdindori.png",
+  "taluka_id": 4,
+  "category_ids": [1]
+}
+
+41.
+{
+  "name": "Ashtabahu Gopal Krishna Temple",
+  "description": "A unique and sacred temple dedicated to Lord Krishna in his eight-armed form, offering a divine and serene environment.",
+  "image_url": "http://127.0.0.1:8000/static/images/AshtabahuGopalKrushnaTemple.png",
+  "taluka_id": 4,
+  "category_ids": [1]
+}
+
+42.
+{
+  "name": "Dehergad Fort",
+  "description": "A less-explored fort in the Dindori region, popular for trekking, hilltop views, and natural surroundings.",
+  "image_url": "http://127.0.0.1:8000/static/images/dhergad.png",
+  "taluka_id": 4,
+  "category_ids": [2, 9]
+}
+
+43.
+{
+  "name": "Palkhed Dam",
+  "description": "A large dam near Dindori known for its peaceful waterside views and a popular picnic spot during monsoon and winter.",
+  "image_url": "http://127.0.0.1:8000/static/images/palkheddam.jpg",
+  "taluka_id": 4,
+  "category_ids": [6, 9]
+}
+
+44.
+{
+  "name": "Saptashrungi",
+  "description": "A major pilgrimage site dedicated to Goddess Saptashrungi Devi, located atop a scenic hill range and known for its sacred atmosphere and panoramic views.",
+  "image_url": "http://127.0.0.1:8000/static/images/saptashrungitemple.jpg",
+  "taluka_id": 6,
+  "category_ids": [1, 4, 9]
+}
+
+45.
+{
+  "name": "Dhodap Fort",
+  "description": "One of the highest and most iconic forts in the Nashik region, Dhodap Fort is known for trekking, historical significance, and stunning views from its massive cliffs.",
+  "image_url": "http://127.0.0.1:8000/static/images/dhodapfort.jpg",
+  "taluka_id": 6,
+  "category_ids": [2, 4, 9]
+}
+
+46.
+{
+  "name": "Sakhalchond",
+  "description": "A serene hill and viewpoint in the Surgana region, known for forest trails, natural beauty, and peaceful surroundings ideal for trekking and nature lovers.",
+  "image_url": "http://127.0.0.1:8000/static/images/sakhalchondwaterfall.avif",
+  "taluka_id": 7,
+  "category_ids": [4, 9]
+}
+
+47.
+{
+  "name": "Bhiutas",
+  "description": "A scenic natural spot in Surgana surrounded by hills and greenery, popular for its calm atmosphere and picturesque viewpoints.",
+  "image_url": "http://127.0.0.1:8000/static/images/bhivtas.jpg",
+  "taluka_id": 7,
+  "category_ids": [4, 9]
+}
+
+48.
+{
+  "name": "Renuka Mata Mandir",
+  "description": "A revered temple in Chandwad dedicated to Renuka Mata, known for its peaceful surroundings and spiritual atmosphere.",
+  "image_url": "http://127.0.0.1:8000/static/images/chandwadrenukamatamandir.webp",
+  "taluka_id": 8,
+  "category_ids": [1]
+}
+
+49.
+{
+  "name": "Chandreshwar Waterfall",
+  "description": "A beautiful seasonal waterfall in the Chandwad region, surrounded by hills and lush greenery, ideal for nature lovers.",
+  "image_url": "http://127.0.0.1:8000/static/images/chandreshwarwaterfall.avif",
+  "taluka_id": 8,
+  "category_ids": [3, 9]
+}
+
+50.
+{
+  "name": "Ichapurti Ganpati Mandir",
+  "description": "A famous Ganpati temple in Chandwad known for its divine atmosphere and the belief that wishes made here are fulfilled.",
+  "image_url": "http://127.0.0.1:8000/static/images/ichapurtiganpati.jpg",
+  "taluka_id": 8,
+  "category_ids": [1]
+}
+
+51.
+{
+  "name": "Indare Fort",
+  "description": "A historic fort in the Chandwad region offering trekking routes, panoramic hilltop views, and ancient fortifications.",
+  "image_url": "http://127.0.0.1:8000/static/images/indraifort.png",
+  "taluka_id": 8,
+  "category_ids": [2, 4, 9]
+}
+
+
+52.
+{
+  "name": "Rangamahal",
+  "description": "A historically significant structure in Chandwad known for its cultural heritage and architectural importance.",
+  "image_url": "http://127.0.0.1:8000/static/images/holkarwadarangmahal.webp",
+  "taluka_id": 8,
+  "category_ids": [5]
+}
+
+53.
+{
+  "name": "Kanchana Fort",
+  "description": "A hill fort near Deola known for its trekking trail, scenic mountain ranges, and remnants of old stone structures.",
+  "image_url": "http://127.0.0.1:8000/static/images/kanchafort.png",
+  "taluka_id": 9,
+  "category_ids": [2, 4, 9]
+}
+
+54.
+{
+  "name": "Premgire Fort",
+  "description": "A historically significant fort in the Deola region featuring rocky pathways, ancient walls, and serene natural surroundings.",
+  "image_url": "http://127.0.0.1:8000/static/images/premgirifortkalwan.jpg",
+  "taluka_id": 9,
+  "category_ids": [2, 4, 9]
+}
+
+55.
+{
+  "name": "Mulher Fort",
+  "description": "One of the major forts in the Nashik district, famous for its tough trek, strategic hilltop location, and ruins of old fortifications.",
+  "image_url": "http://127.0.0.1:8000/static/images/mulherfortsatana.webp",
+  "taluka_id": 9,
+  "category_ids": [2, 4, 9]
+}
+
+56.
+{
+  "name": "Prem Mandir",
+  "description": "A serene and spiritually significant temple known for its peaceful atmosphere, devotional ambiance, and traditional architecture.",
+  "image_url": "http://127.0.0.1:8000/static/images/premmandir.png",
+  "taluka_id": 1,
+  "category_ids": [1, 4, 9]
+}
+
+57.
+{
+  "name": "Galna Fort",
+  "description": "An ancient hill fort in the Baglan region known for its strong historical significance, trekking routes, and scenic mountain surroundings.",
+  "image_url": "http://127.0.0.1:8000/static/images/galnafort.webp",
+  "taluka_id": 10,
+  "category_ids": [2, 4, 9]
+}
+
+58.
+{
+  "name": "Mangitungi Fort",
+  "description": "A prominent twin-peaked landmark famous for its spiritual importance, Jain pilgrimage site, and the towering 108-feet Jain statue.",
+  "image_url": "http://127.0.0.1:8000/static/images/mangitungi.webp",
+  "taluka_id": 10,
+  "category_ids": [1, 2, 4, 9]
+}
+
+59.
+{
+  "name": "Chandanpuri Ghat",
+  "description": "A scenic mountain pass near Malegaon known for its beautiful curves along NH-3, lush green surroundings, and foggy monsoon views.",
+  "image_url": "http://127.0.0.1:8000/static/images/chandanpuri.png",
+  "taluka_id": 11,
+  "category_ids": [4, 9]
+}
+
+60.
+{
+  "name": "Shrimant Raje Gaikwad Wada",
+  "description": "A historic heritage wada showcasing old Maratha architecture and cultural significance in the Malegaon region.",
+  "image_url": "http://127.0.0.1:8000/static/images/shrimantrajegaikwadwada.avif",
+  "taluka_id": 11,
+  "category_ids": [3, 8, 9]
+}
+
+61.
+{
+  "name": "Bhuikot Quila",
+  "description": "A prominent fort in Malegaon featuring massive stone walls, historical structures, and cultural heritage connected to various dynasties.",
+  "image_url": "http://127.0.0.1:8000/static/images/BhuikotQuailla.png",
+  "taluka_id": 11,
+  "category_ids": [3, 4, 8, 9]
+}
+
+62.
+{
+  "name": "Manik Punja Fort",
+  "description": "An ancient hill fort near Nandgaon known for its trekking trail, historic remnants, and panoramic views of the surrounding landscape.",
+  "image_url": "http://127.0.0.1:8000/static/images/manikpunjfort.jpg",
+  "taluka_id": 12,
+  "category_ids": [2, 4, 9]
+}
+
+63.
+{
+  "name": "Devdari Waterfall",
+  "description": "A scenic seasonal waterfall near Yeola known for its natural beauty, rocky surroundings, and peaceful environment, making it a popular spot for nature lovers.",
+  "image_url": "http://127.0.0.1:8000/static/images/devdariwaterfall.webp",
+  "taluka_id": 13,
+  "category_ids": [4, 9]
+}
+
+64.
+{
+  "name": "Katra Fort",
+  "description": "A historic fort in the Yeola region offering trekking opportunities, stone structures, and elevated views of the surrounding terrain.",
+  "image_url": "http://127.0.0.1:8000/static/images/katrafort.png",
+  "taluka_id": 13,
+  "category_ids": [2, 4, 9]
+}
+
+65.
+{
+  "name": "Anaki Fort",
+  "description": "An ancient hill fort near Yeola featuring rugged trails, old fortification remains, and panoramic views ideal for trekking enthusiasts.",
+  "image_url": "http://127.0.0.1:8000/static/images/ankai.png",
+  "taluka_id": 13,
+  "category_ids": [2, 4, 9]
+}
+
+66.
+{
+  "name": "Basvant Honey Bee Park",
+  "description": "An educational and nature-centric honey bee park in Niphad where visitors can learn about beekeeping, honey production, and enjoy a peaceful natural environment.",
+  "image_url": "http://127.0.0.1:8000/static/images/basvanthoneybee.png",
+  "taluka_id": 14,
+  "category_ids": [5, 9]
+}
+
+67.
+{
+  "name": "Khandoba Temple",
+  "description": "A revered spiritual temple dedicated to Lord Khandoba, known for its peaceful atmosphere and devotion-rich surroundings in Niphad.",
+  "image_url": "http://127.0.0.1:8000/static/images/khandobamandirozar.webp",
+  "taluka_id": 14,
+  "category_ids": [1, 9]
+}
+
+68.
+{
+  "name": "Vinchur Wine Park",
+  "description": "A well-known wine production and grape-processing hub featuring vineyards, wine-related industries, and scenic surroundings in Niphad.",
+  "image_url": "http://127.0.0.1:8000/static/images/VinchurWinePark.webp",
+  "taluka_id": 14,
+  "category_ids": [8, 9, 5]
+}
+
+69.
+{
+  "name": "Nandur Madhmeshwar Bird Sanctuary",
+  "description": "A famous bird sanctuary known for its rich biodiversity, wetlands, migratory birds, and peaceful natural landscapes, often called the Bharatpur of Maharashtra.",
+  "image_url": "http://127.0.0.1:8000/static/images/nandurmadhmeshwarabhayaranya.png",
+  "taluka_id": 14,
+  "category_ids": [5, 9]
+}
+
+70.
+{
+  "name": "Janashanti Dham",
+  "description": "A serene spiritual site offering a calm atmosphere, devotional space, and a peaceful environment for meditation and prayer in Niphad.",
+  "image_url": "http://127.0.0.1:8000/static/images/janshantidham.webp",
+  "taluka_id": 14,
+  "category_ids": [1, 9]
+}
+
+71.
+{
+  "name": "Gondeshwar Temple (Mahadev Mandir)",
+  "description": "An ancient Hemadpanti-style Shiva temple in Sinnar known for its intricate stone carvings, historic architecture, and peaceful spiritual ambiance.",
+  "image_url": "http://127.0.0.1:8000/static/images/gondeshwar.png",
+  "taluka_id": 15,
+  "category_ids": [1, 9]
+}
+
+72.
+{
+  "name": "Gargoti Mineral Museum",
+  "description": "A renowned museum displaying rare minerals, crystals, and geological formations, offering an educational and fascinating experience for visitors.",
+  "image_url": "",
+  "taluka_id": 15,
+  "category_ids": [3, 9]
+}
+
+
+74.
+{
+  "name": "Sri Dattatreya Mandir",
+  "description": "A peaceful and devotional temple dedicated to Lord Dattatreya, offering a calm spiritual atmosphere in Sinnar.",
+  "image_url": "http://127.0.0.1:8000/static/images/shreedattatrayesinnar.avif",
+  "taluka_id": 15,
+  "category_ids": [1, 9]
+}
+
+75.
+{
+  "name": "Malegaon Sugar Factory Lake & Garden",
+  "description": "A scenic lake and garden area near the sugar factory in Sinnar, known for its greenery, peaceful environment, and relaxing outdoor spaces.",
+  "image_url": "http://127.0.0.1:8000/static/images/MalegaonSugarFactoryLake.avif",
+  "taluka_id": 15,
+  "category_ids": [5, 6, 9]
+}
+
+76.
+{
+  "name": "Kavnai Fort",
+  "description": "A popular trekking fort near Sinnar offering scenic trails, panoramic valley views, and remnants of historic structures.",
+  "image_url": "http://127.0.0.1:8000/static/images/kavnaifort.png",
+  "taluka_id": 15,
+  "category_ids": [2, 5, 9]
+}
+
+77.
+{
+  "name": "Ayushwarya Mandir",
+  "description": "A peaceful and spiritually uplifting temple in Sinnar offering a calming environment for prayer and meditation.",
+  "image_url": "http://127.0.0.1:8000/static/images/aishwarya.png",
+  "taluka_id": 15,
+  "category_ids": [1, 9]
+}
+
+78.
+{
+  "name": "Artillery Museum",
+  "description": "A major defense museum in Nashik showcasing artillery equipment, military history, and exhibits related to the Indian Army.",
+  "image_url": "http://127.0.0.1:8000/static/images/artillerymuseum.jpg",
+  "taluka_id": 1,
+  "category_ids": [3, 9]
+}
+
+79.
+{
+  "name": "Gangapur Dam",
+  "description": "A scenic dam in Nashik offering peaceful surroundings, water views, and a popular spot for nature lovers and evening visits.",
+  "image_url": "http://127.0.0.1:8000/static/images/GangapurDam.jpeg",
+  "taluka_id": 1,
+  "category_ids": [5, 9]
+}
+
+80.
+{
+  "name": "Dadasaheb Phalke Memorial",
+  "description": "A cultural and film-themed memorial dedicated to Dadasaheb Phalke, featuring exhibits, gardens, and an engaging entertainment space.",
+  "image_url": "http://127.0.0.1:8000/static/images/DadasahebPhalkeMemorial.jpg",
+  "taluka_id": 1,
+  "category_ids": [3, 6, 9]
+}
+
+81.
+{
+  "name": "360 Degree Object D'Art",
+  "description": "A creative art museum in Nashik showcasing artistic installations, unique sculptures, and immersive visual experiences.",
+  "image_url": "http://127.0.0.1:8000/static/images/360DegreeObjectD'art.jpg",
+  "taluka_id": 1,
+  "category_ids": [3, 6, 9]
+}
+
+82.
+{
+  "name": "Shree Jagannath Mandir",
+  "description": "A beautiful temple inspired by the Jagannath Puri style, offering a peaceful spiritual ambiance in Nashik.",
+  "image_url": "http://127.0.0.1:8000/static/images/shreejagannathmandir.jpg",
+  "taluka_id": 1,
+  "category_ids": [1, 9]
+}
+
+83.
+{
+  "name": "Kapareshwar Mahadev Mandir",
+  "description": "A serene Mahadev temple near Igatpuri, known for its peaceful surroundings and spiritual atmosphere amid natural beauty.",
+  "image_url": "http://127.0.0.1:8000/static/images/kapareshwar.webp",
+  "taluka_id": 2,
+  "category_ids": [1, 9]
+}
+
+84.
+{
+  "name": "Darna Lake",
+  "description": "A scenic lake near Igatpuri popular for its tranquil environment, natural beauty, and relaxing lakeside views.",
+  "image_url": "http://127.0.0.1:8000/static/images/darnadam.webp",
+  "taluka_id": 2,
+  "category_ids": [5, 9]
+}
+
+85.
+{
+  "name": "Bhavli",
+  "description": "A picturesque nature spot in Igatpuri known for its dam, seasonal waterfalls, and lush greenery—ideal for nature lovers and photographers.",
+  "image_url": "http://127.0.0.1:8000/static/images/bhavaliwaterfall.jpg",
+  "taluka_id": 2,
+  "category_ids": [4, 5, 9]
+}
+
+86.
+{
+  "name": "Vaitarna Dam",
+  "description": "A popular scenic dam in Igatpuri offering peaceful views, cool climate, and a perfect escape into nature.",
+  "image_url": "http://127.0.0.1:8000/static/images/vaitaranadam.jpg",
+  "taluka_id": 2,
+  "category_ids": [5, 9]
+}
+
+87.
+{
+  "name": "Vallonne Vineyards",
+  "description": "A boutique vineyard near Igatpuri known for its fine wines, lakeside views, restaurant, and serene vineyard landscapes.",
+  "image_url": "http://127.0.0.1:8000/static/images/vallonnevineyards.jpg",
+  "taluka_id": 2,
+  "category_ids": [8, 7, 9, 5]
+}
+
+88.
+{
+  "name": "JenJon Lake Vaitarna Waterfall",
+  "description": "A picturesque waterfall and lakeside adventure spot near Igatpuri offering natural beauty, outdoor activities, and peaceful relaxation.",
+  "image_url": "http://127.0.0.1:8000/static/images/jenjonlakevaitarnawaterfall.jpg",
+  "taluka_id": 2,
+  "category_ids": [4, 5, 9, 6]
+}
+
+89.
+{
+  "name": "Coin Museum",
+  "description": "An informative museum in Trimbakeshwar showcasing the history of Indian coinage through rare coins, artifacts, and educational displays.",
+  "image_url": "http://127.0.0.1:8000/static/images/CoinMuseum.jpg",
+  "taluka_id": 3,
+  "category_ids": [3, 9]
+}
+
+
+
+
+Missal spot
+
+1.
+{
+    "name": "Peruchi Vadi Misal",
+    "description": "A popular misal spot known for its spicy and authentic Maharashtrian taste.",
+    "image": "http://127.0.0.1:8000/static/images/missal%20spots/peruchivadi.jpg",
+    "taluka_id": 1,
+    "category_ids": [10, 12]
+}
+
+2.
+{
+    "name": "Bhamre Misal",
+    "description": "Famous misal place serving traditional and flavorful misal pav.",
+    "image": "http://127.0.0.1:8000/static/images/missal%20spots/bhamremisal1.jpg",
+    "taluka_id": 1,
+    "category_ids": [12]
+}
+
+3.
+{
+    "name": "Grape Embassy",
+    "description": "A misal and snacks outlet known for unique food combinations.",
+    "image": "http://127.0.0.1:8000/static/images/missal%20spots/grapesembemcy.jpg",
+    "taluka_id": 1,
+    "category_ids": [12]
+}
+
+4.
+{
+    "name": "Sadhana Misal",
+    "description": "One of the most popular misal joints, known for Nashik-style misal.",
+    "image": "http://127.0.0.1:8000/static/images/missal%20spots/Sadhnamissal.jpg",
+    "taluka_id": 1,
+    "category_ids": [12]
+}
+
+5.
+{
+    "name": "Vitthal Misal",
+    "description": "A well-known misal place serving spicy and tasty misal pav.",
+    "image": "http://127.0.0.1:8000/static/images/missal%20spots/vittalmissal.jpg",
+    "taluka_id": 1,
+    "category_ids": [10, 12]
+}
+
+6.
+{
+    "name": "Mamacha Mala",
+    "description": "A scenic village-style food spot offering traditional Maharashtrian meals.",
+    "image": "http://127.0.0.1:8000/static/images/missal%20spots/MamachaMala.png",
+    "taluka_id": 1,
+    "category_ids": [12]
+  }
+
+7.
+{
+    "name": "Shamsundar Misal",
+    "description": "A well-loved misal outlet known for rich flavor and spicy tarri.",
+    "image": "http://127.0.0.1:8000/static/images/missal%20spots/ShamsundarMisal.webp",
+    "taluka_id": 1,
+    "category_ids": [12]
+  }
+
+8.
+{
+    "name": "Amchi Matti Amchi Manse",
+    "description": "A rustic food destination offering village-style ambiance and meals.",
+    "image": "http://127.0.0.1:8000/static/images/missal%20spots/Amchimattiamchimanse.jpg",
+    "taluka_id": 1,
+    "category_ids": [10, 12]
+  }
+
+9.
+{
+  "name": "Aishwarya Garden Misal",
+  "description": "A popular misal spot in Sinner, Nashik known for its flavorful Nashik-style misal and family-friendly ambiance.",
+  "image": "http://127.0.0.1:8000/static/images/missal%20spots/aishwaryamissal.jpg",
+  "taluka_id": 15,
+  "category_ids": [12]
+}
+
+theamparks
+[
+  {
+    "name": "Zonkers Adventure Park",
+    "description": "Adventure and amusement park offering go-karting, ATV, rope courses, bungee trampoline and more.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/ZonkersAdventurePark.jpg",
+    "taluka_id": 1,
+    "category_ids": [11]
+  },
+  {
+    "name": "Ashoka Adventure Park",
+    "description": "Adventure zone with rope activities, obstacle courses, wall climbing and outdoor games.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/ashokaadventurepark.jpg",
+    "taluka_id": 1,
+    "category_ids": [11]
+  },
+  {
+    "name": "SUMA Adventure Park & Resort",
+    "description": "Adventure and resort destination featuring zipline, ATV, zorbing, rope activities and family recreation.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/sumaadventurepark.jpg",
+    "taluka_id": 1,
+    "category_ids": [11]
+  },
+  {
+    "name": "Keshar Baug Adventure Park",
+    "description": "Adventure and family entertainment park offering rope games, rides and recreational activities.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/kesharbaugadventurepark.jpg",
+    "taluka_id": 1,
+    "category_ids": [11]
+  },
+  {
+    "name": "Wonder Zone",
+    "description": "Indoor amusement and trampoline park providing VR games, kids area and fun activities.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/wonderzone.jpg",
+    "taluka_id": 1,
+    "category_ids": [11]
+  },
+  {
+    "name": "Watermelon Adventure Park",
+    "description": "Recreational adventure and activity park designed for family and group outings.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/watermellon.jpg",
+    "taluka_id": 1,
+    "category_ids": [11]
+  },
+  {
+    "name": "Fizzy Fox Adventure Park",
+    "description": "Fun adventure park for children and families with indoor and outdoor play activities.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/fizzyfox.jpg",
+    "taluka_id": 1,
+    "category_ids": [11]
+  },
+  {
+    "name": "SS Farms Adventure & Agro Tourism",
+    "description": "Farm-based tourism destination offering water activities, adventure amenities and outdoor games.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/ssfarms.jpg",
+    "taluka_id": 1,
+    "category_ids": [11]
+  }
+]
+ waterpark
+[
+  {
+    "name": "Shagun Water Park",
+    "description": "Waterpark with slides, pools and family entertainment located near Igatpuri.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/Shagunwaterpark.jpg",
+    "taluka_id": 2,
+    "category_ids": [13]
+  },
+  {
+    "name": "Shubham Water World",
+    "description": "Popular waterpark near Nashik featuring slides, pools and wave attractions.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/shubhamwaterpark.png",
+    "taluka_id": 1,
+    "category_ids": [13]
+  }
+]
+
+[
+  {
+    "name": "Pandit Deendayal Upadhyay Theme Park",
+    "description": "A well-maintained public theme park featuring landscaped gardens, walking tracks, seating areas, and recreational open spaces suitable for families and children.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/pantitendayaltheampark.jpg",
+    "taluka_id": 1,
+    "category_ids": [11]
+  },
+  {
+    "name": "Mini Fun Land",
+    "description": "A family entertainment zone offering arcade games, kiddie rides, and playful indoor amusement activities suitable for children.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/minifunland.jpg",
+    "taluka_id": 1,
+    "category_ids": [11]
+  },
+  {
+    "name": "Fantazone Entertainment & Educational Zone",
+    "description": "An entertainment and educational park surrounded by natural greenery, offering recreational activities, learning-based attractions, and family fun in a serene environment.",
+    "image": "http://127.0.0.1:8000/static/images/TheamparksAndWaterparks/fantazone.jpg",
+    "taluka_id": 2,
+    "category_ids": [11]
+  }
+]
+
+
