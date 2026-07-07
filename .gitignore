@@ -39,3 +39,6 @@ build/
 
 # Environment
 .env
+
+Backend/firebase-service-account.json
+Backend/firebase-service-account.json.json
