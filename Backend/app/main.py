@@ -55,7 +55,7 @@ app.mount(
 # Database
 # =========================
 # Uncomment if you want tables created automatically
-# Base.metadata.create_all(bind=engine)
+Base.metadata.create_all(bind=engine)
 
 # =========================
 # Routers
