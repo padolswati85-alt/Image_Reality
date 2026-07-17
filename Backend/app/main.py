@@ -1,8 +1,8 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-# DB
+# Database
 from app.database import Base, engine
 
 # Routers
@@ -16,30 +16,50 @@ from app.routers import (
     activities,
     admin,
 )
+
 from app.routers.search import router as search_router
 from app.routers.route_planner import router as route_planner_router
 
-app = FastAPI(title="Nashik Sangham Backend")
+app = FastAPI(
+    title="Nashik Sangam Backend",
+    version="1.0.0"
+)
 
+# =========================
 # CORS
+# =========================
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+
+        "https://nashik-sangam.web.app",
+        "https://nashik-sangam.firebaseapp.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Static
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
+# =========================
+# Static Files
+# =========================
+app.mount(
+    "/static",
+    StaticFiles(directory="app/static"),
+    name="static"
+)
 
-# DEV only – comment out if database is not ready
-# Base.metadata.create_all(bind=engine)   # <-- comment this line for now
+# =========================
+# Database
+# =========================
+# Uncomment if you want tables created automatically
+# Base.metadata.create_all(bind=engine)
 
+# =========================
 # Routers
+# =========================
 app.include_router(hotels.router)
 app.include_router(booking.router)
 app.include_router(categories.router)
@@ -51,6 +71,12 @@ app.include_router(search_router)
 app.include_router(route_planner_router, prefix="/planner", tags=["Trip Planner"])
 app.include_router(admin.router)
 
+# =========================
+# Home
+# =========================
 @app.get("/")
 def home():
-    return {"message": "API Working!"}
+    return {
+        "status": "success",
+        "message": "Nashik Sangam Backend is Running!"
+    }
