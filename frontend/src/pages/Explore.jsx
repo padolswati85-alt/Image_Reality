@@ -1,3 +1,6 @@
+//explore.jsx
+
+
 "use client";
 import { useEffect, useState, useMemo, useRef, useLayoutEffect } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
@@ -13,7 +16,7 @@ export default function Explore() {
   const [error, setError] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [visibleCount, setVisibleCount] = useState(8);
-
+  const IMAGE_URL = "https://image-reality.onrender.com";
   const [nearbyActive, setNearbyActive] = useState(false);
   const [nearbyRadius, setNearbyRadius] = useState(10);
   const [loadingNearby, setLoadingNearby] = useState(false);
@@ -27,17 +30,84 @@ export default function Explore() {
   const talukaIdParam = searchParams.get("taluka");
 
   const loadAllDestinations = async () => {
-    try {
-      const data = await fetchDestinations();
-      setPlaces(Array.isArray(data) ? data : []);
-    } catch (err) {
-      console.error(err);
-      setError("Failed to load destinations");
-      toast.error("Failed to load destinations");
-    } finally {
-      setLoading(false);
+  try {
+
+    const data = await fetchDestinations();
+
+    console.log("Explore API DATA:", data);
+
+
+    if (!Array.isArray(data)) {
+      console.error("Invalid destination response");
+      setPlaces([]);
+      return;
     }
-  };
+
+
+    const formatted = data.map((place, index)=>({
+
+      ...place,
+
+      id: place.id ?? index,
+
+
+      // image fix
+      image:
+        place.image ||
+        place.image_url ||
+        "/placeholder.jpg",
+
+
+      // description fix
+      description:
+        place.description ||
+        "No description available",
+
+
+      // taluka fix
+      talukaName:
+        place.taluka?.name ||
+        "Nashik",
+
+
+      // keep taluka object safe
+      taluka:
+        place.taluka || null
+
+    }));
+
+
+    console.log(
+      "FORMATTED EXPLORE DATA:",
+      formatted
+    );
+
+
+    setPlaces(formatted);
+
+
+  } catch(err){
+
+    console.error(
+      "Explore loading error:",
+      err
+    );
+
+    setError(
+      "Failed to load destinations"
+    );
+
+    toast.error(
+      "Failed to load destinations"
+    );
+
+
+  } finally {
+
+    setLoading(false);
+
+  }
+};
 
   useEffect(() => {
     loadAllDestinations();
@@ -113,8 +183,10 @@ export default function Explore() {
     let filtered = places;
     
     if (!nearbyActive && talukaIdParam) {
-      filtered = filtered.filter((p) => String(p.taluka?.id) === talukaIdParam);
-    }
+      filtered = filtered.filter(
+        (p) => String(p.taluka?.id) === talukaIdParam
+      );
+}
     
     if (searchQuery && !nearbyActive) {
       filtered = filtered.filter((p) =>
@@ -236,7 +308,16 @@ export default function Explore() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src={place.image}
+                    src={
+                        place.image?.startsWith("http://127.0.0.1")
+                        ?
+                        place.image.replace(
+                        "http://127.0.0.1:8000",
+                        IMAGE_URL
+                        )
+                        :
+                        place.image
+                        }
                     alt={place.name}
                     className="w-full h-full object-cover"
                     onError={(e) => (e.target.src = "/placeholder.jpg")}

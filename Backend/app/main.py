@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
 # Database
-from app.database import Base, engine
+from app.database import engine
 
 # Routers
 from app.routers import (
@@ -33,7 +33,6 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
-
         "https://nashik-sangam.web.app",
         "https://nashik-sangam.firebaseapp.com",
     ],
@@ -52,10 +51,11 @@ app.mount(
 )
 
 # =========================
-# Database
+# DATABASE
 # =========================
-# Uncomment if you want tables created automatically
-Base.metadata.create_all(bind=engine)
+# IMPORTANT:
+# The tables already exist in TiDB.
+# Do NOT call Base.metadata.create_all()
 
 # =========================
 # Routers
@@ -68,7 +68,11 @@ app.include_router(talukas.router)
 app.include_router(images.router)
 app.include_router(activities.router)
 app.include_router(search_router)
-app.include_router(route_planner_router, prefix="/planner", tags=["Trip Planner"])
+app.include_router(
+    route_planner_router,
+    prefix="/planner",
+    tags=["Trip Planner"]
+)
 app.include_router(admin.router)
 
 # =========================

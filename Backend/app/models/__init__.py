@@ -1,5 +1,3 @@
-# app/models/__init__.py
-# Import all model modules so SQLAlchemy metadata is populated when this package is imported.
 from .activity import Activity
 from .booking import Booking
 from .category import Category

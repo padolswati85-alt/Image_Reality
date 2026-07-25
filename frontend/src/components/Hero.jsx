@@ -1,3 +1,5 @@
+//hero.jsx which is called in home.jsx
+
 "use client";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
