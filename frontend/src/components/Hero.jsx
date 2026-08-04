@@ -33,7 +33,7 @@ export default function Home() {
 
   // Load destinations from backend
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/destinations")
+    fetch("https://image-reality.onrender.com/destinations")
       .then((res) => res.json())
       .then((data) => setPlaces(data))
       .catch((err) => console.log(err));
@@ -44,7 +44,7 @@ export default function Home() {
   const getImage = (image) => {
     if (!image) return noImage;
     if (image.startsWith("http")) return image;
-    return `http://127.0.0.1:8000${image}`;
+    return `https://image-reality.onrender.com://${image}`;
   };
 
   // Only filter if query exists

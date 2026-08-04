@@ -1,4 +1,4 @@
-const API = "http://127.0.0.1:8000"; // your FastAPI backend
+const API = "https://image-reality.onrender.com"; // your FastAPI backend
 
 export const fetchDestinations = async () => {
   try {

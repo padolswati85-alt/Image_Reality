@@ -56,7 +56,7 @@ export default function MapPage() {
   const [startPoint, setStartPoint] = useState(STARTING_POINTS[0]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/destinations/")
+    fetch("https://image-reality.onrender.com/destinations/")
       .then((res) => res.json())
       .then((data) => {
         const valid = data.filter(

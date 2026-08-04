@@ -312,7 +312,7 @@ export default function Explore() {
                         place.image?.startsWith("http://127.0.0.1")
                         ?
                         place.image.replace(
-                        "http://127.0.0.1:8000",
+                        "https://image-reality.onrender.com",
                         IMAGE_URL
                         )
                         :

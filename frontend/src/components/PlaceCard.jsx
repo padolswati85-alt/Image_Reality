@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Heart } from "lucide-react";
 import { useWishlist } from "../context/WishlistContext";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://image-reality.onrender.com";
 
 const getImageUrl = (imagePath) => {
   if (!imagePath) return "https://via.placeholder.com/400x250";

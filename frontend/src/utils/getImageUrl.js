@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://image-reality.onrender.com";
 
 export function getImageUrl(imagePath) {
   if (!imagePath) return "/placeholder.jpg";

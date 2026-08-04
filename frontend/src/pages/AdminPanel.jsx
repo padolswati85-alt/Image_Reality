@@ -12,7 +12,7 @@ import {
   Search,
 } from "lucide-react";
 
-const API_BASE = "http://127.0.0.1:8000/admin";
+const API_BASE = "https://image-reality.onrender.com/admin";
 
 const emptyDestination = {
   name: "",

@@ -7,7 +7,7 @@ import CrowdAlertBanner from "../components/CrowdAlertBanner";
 import EmergencyHelpPanel from "../components/EmergencyHelpPanel";
 import SafeRouteSuggestion from "../components/SafeRouteSuggestion";
 
-const API_URL = "http://127.0.0.1:8000/destinations";
+const API_URL = "https://image-reality.onrender.com/destinations";
 
 const randomCrowd = () => {
   const levels = ["Low", "Medium", "High", "Danger"];
