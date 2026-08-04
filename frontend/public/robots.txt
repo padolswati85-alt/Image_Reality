@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nashik-sangam.web.app/sitemap.xml
